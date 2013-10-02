@@ -1,0 +1,12 @@
+Creating multi session disks may not be always succsessful.Escpecially on DVDs. Failure of last session makes the disk completely unmountable or takes long time for mounting
+This application scans tracks & reads the specified track only.In multi-session disks,last track will be empty(open session) so second last track is the last session you had written .So reading second last track is the same effect of mounting the disk
+
+The default cd/dvd device scaned by this application is /dev/scd0 .You may change this by file->open device menu
+
+ First press "scan tracks"button
+ Then double-click on a track for reading the track
+Then double-click on a file name or directory tree for extracting the specified file
+
+
+Please mail your suggesions to <harish2704@gmail.com>
+

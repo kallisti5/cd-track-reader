@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+_Name=cd-track-reader
+_GenericName=cd-track-reader
+_Comment=read cd dvd trackvise without mounting
+Exec=cd_track_reader
+StartupNotify=false
+Terminal=false
+Type=Application
+Icon=cd-track-reader
+Categories=GTK;GNOME;Utility;
+
