@@ -58,7 +58,7 @@ int main ( int   argc,
 	scrolled_win_t = gtk_scrolled_window_new ( NULL, NULL );
 	menubar=gtk_menu_bar_new();
 
-	char deflt_dev[]="/dev/scd0";
+	char deflt_dev[]="/dev/sr0";
 	app.dev =deflt_dev;
 //packing
 	gtk_container_add ( GTK_CONTAINER ( app.window ), bigbox );
