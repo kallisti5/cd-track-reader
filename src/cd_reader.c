@@ -27,6 +27,7 @@ Thanks   libisofs
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
+#include <stdint.h>
 #include <libisofs/libisofs.h>
 #define GTK_ENABLE_BROKEN
 #ifdef HAVE_CONFIG_H
